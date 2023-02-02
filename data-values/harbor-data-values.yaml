@@ -39,31 +39,31 @@ persistence:
   persistentVolumeClaim:
     registry:
       existingClaim: ""
-      storageClass:
+      storageClass: "vc01cl01-t0compute"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 50Gi
     jobservice:
       existingClaim: ""
-      storageClass:
+      storageClass: "vc01cl01-t0compute"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 1Gi
     database:
       existingClaim: ""
-      storageClass:
+      storageClass: "vc01cl01-t0compute"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 1Gi
     redis:
       existingClaim: ""
-      storageClass:
+      storageClass: "vc01cl01-t0compute"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 1Gi
     trivy:
       existingClaim: ""
-      storageClass:
+      storageClass: "vc01cl01-t0compute"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 5Gi

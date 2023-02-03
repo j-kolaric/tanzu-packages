@@ -11,3 +11,6 @@ prometheus:
 alertmanager:
   pvc:
     storageClassName: "kubernetes-storage-policy"
+
+
+https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.6/vmware-tanzu-kubernetes-grid-16/GUID-packages-prometheus.html
